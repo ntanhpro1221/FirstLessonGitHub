@@ -12,4 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 185c0691f8ed60c49ad96c06daa589ed, type: 3}
   m_Name: PoolingTable
   m_EditorClassIdentifier: 
-  Serializers: []
+  Serializers:
+  - key: Bullet
+    ItemPooling:
+      listPooling:
+      - {fileID: 7944667581293819377, guid: 3535f0479bc933b42b00cba9ccf5d26a, type: 3}
